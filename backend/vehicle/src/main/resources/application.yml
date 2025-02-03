@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: "vehicle"
+
+  datasource:
+    url: jdbc:postgresql://database-carwana.c10ke82uissi.us-east-2.rds.amazonaws.com:5432/carwana
+#    jdbc-url: jdbc:postgresql://database-carwana.c10ke82uissi.us-east-2.rds.amazonaws.com:5432/carwana
+    username: postgres
+    password: zoozoo777
+    minimum-pool-size: 4
+    maximum-pool-size: 30
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql=true:
+
